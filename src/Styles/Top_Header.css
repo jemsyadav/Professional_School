@@ -1,0 +1,61 @@
+.background_images{
+    background-image: url(../Images/header_background.png);
+    background-size: cover;
+  
+    z-index: 1;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    background-position: 100%;
+    flex-wrap: wrap;
+}
+
+ 
+
+.topnav {
+    background-color:#4a6bb5;
+    overflow: hidden;
+    min-height: 40px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .imgc{
+    padding-top: 12px;
+}
+
+  @media only screen and (max-width:600px) {
+    .imgc{
+        width: 100%;
+    }
+    .offcanvas-header {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    }
+  }
