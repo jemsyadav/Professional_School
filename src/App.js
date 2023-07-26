@@ -9,6 +9,8 @@ import Benifits from './Pages/Benifits';
 import OurTeam from './Pages/OurTeam';
 import Certificates from './Pages/Certificates';
 import School_History from './Pages/School_History';
+import Overview from './Pages/Overview';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
     <Route path='/ourteam' element={<OurTeam/>}/>
     <Route path='/certificates' element={<Certificates/>}/>
     <Route path='/school' element={<School_History/>}/>
+    <Route path='/overview' element={<Overview/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+
      
 
     </Routes>

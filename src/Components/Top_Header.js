@@ -6,8 +6,8 @@ const Top_Header = () => {
     <div>
       <div class="topnav" id="myTopnav">
       <div className="container">
-  <a href="#home" class="">OVERVIEW</a>
-  <a href="#contact">CONTACT</a>
+  <a href="/overview" class="">OVERVIEW</a>
+  <a href="/contact">CONTACT</a>
   {/* <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a> */}
