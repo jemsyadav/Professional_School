@@ -11,6 +11,9 @@ import Certificates from './Pages/Certificates';
 import School_History from './Pages/School_History';
 import Overview from './Pages/Overview';
 import Contact from './Pages/Contact';
+import ControlPannelHome from './Pages/ControlPannelHome';
+import Facultiy from './Pages/Facultiy';
+import ControlPannelStudents from './Pages/ControlPannelStudents';
 
 function App() {
   return (
@@ -19,7 +22,12 @@ function App() {
 
   <BrowserRouter>
     <Routes>
-    
+    <Route path='/' element={<ControlPannelHome/>}/>
+    <Route path='/faculity' element={<Facultiy/>}/>
+    <Route path='/students' element={<ControlPannelStudents/>}/>
+
+
+
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/services' element={<Services/>}/>

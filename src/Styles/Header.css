@@ -75,6 +75,19 @@
       }
     }
 
+
+
+    .Home_Control_Pannel{
+      background-image: url(../Images/bg.png);
+      background-size: cover;
+      background-position: 100%;
+      padding-bottom: 600px;
+      position: relative;
+      z-index: 1;
+      background-repeat: no-repeat;
+      flex-wrap: wrap;
+    }
+
     
 
     
