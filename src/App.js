@@ -22,9 +22,9 @@ function App() {
 
   <BrowserRouter>
     <Routes>
-    <Route path='/' element={<ControlPannelHome/>}/>
-    <Route path='/faculity' element={<Facultiy/>}/>
-    <Route path='/students' element={<ControlPannelStudents/>}/>
+    <Route path='/home' element={<ControlPannelHome/>}/>
+    {/* <Route path='/faculity' element={<Facultiy/>}/>
+    <Route path='/students' element={<ControlPannelStudents/>}/> */}
 
 
 

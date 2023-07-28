@@ -4,6 +4,7 @@ import Top_Header from '../Components/Top_Header'
 import Top_Header_2 from '../Components/Top_Header_2'
 import Navbar_3 from '../Components/Navbar_3'
 import Headerimage1 from '../Images/header-1-1.png'
+import ControlPannelRegistation from './ControlPannelRegistation'
 
 const ControlPannelHome = () => {
   return (
@@ -39,6 +40,7 @@ const ControlPannelHome = () => {
             </div>
         </div>
     </div>
+    <ControlPannelRegistation/>
       
     </div>
   )

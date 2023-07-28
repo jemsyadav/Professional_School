@@ -88,6 +88,10 @@
       flex-wrap: wrap;
     }
 
+    .Table_Header_Background{
+      background-color: red !important;
+    }
+
     
 
     

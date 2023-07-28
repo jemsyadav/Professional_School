@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../src/Styles/Header.css'
 import Headerimage1 from '../Images/header-1-1.png'
 import Top_Header from '../Components/Top_Header'
 import Navbar_3 from '../Components/Navbar_3'
@@ -86,7 +87,7 @@ const ControlPannelStudents = () => {
             <div className="col-lg-12">
             <table class="table">
               <thead class="thead-dark">
-                <tr>
+                <tr className='Table_Header_Background'>
                   <th scope="col">Name</th>
                   <th scope="col">Email</th>
                   <th scope="col">Courses</th>
