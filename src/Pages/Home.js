@@ -16,6 +16,7 @@ import Footer from '../Components/Footer'
 import Top_Header_2 from '../Components/Top_Header_2'
 import ControlPannelHome from './ControlPannelHome'
 import ControlPannelStudents from './ControlPannelStudents'
+import PopUp from '../Components/PopUp'
 
 
 const Home = () => {
@@ -76,9 +77,7 @@ const Home = () => {
   
     </div>
     <Footer/>
-    <ControlPannelStudents/>
-   
-  
+    
    
    
    </div>

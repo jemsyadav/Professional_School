@@ -24,12 +24,12 @@ function App() {
     <Routes>
     
 
-     <Route path='/controlpannelhome' element={<ControlPannelHome/>}/> 
+     <Route path='/controlpannelhome' element={<Home/>}/> 
     <Route path='/faculity' element={<Facultiy/>}/>
     <Route path='/students' element={<ControlPannelStudents/>}/> 
 
 
-    <Route path='/' element={<Home/>}/>
+    <Route path='/' element={<ControlPannelHome/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/services' element={<Services/>}/>
     <Route path='/benifits' element={<Benifits/>}/>

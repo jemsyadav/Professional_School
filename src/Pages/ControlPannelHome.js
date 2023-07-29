@@ -5,6 +5,7 @@ import Top_Header_2 from '../Components/Top_Header_2'
 import Navbar_3 from '../Components/Navbar_3'
 import Headerimage1 from '../Images/header-1-1.png'
 import ControlPannelRegistation from './ControlPannelRegistation'
+import { Link } from 'react-router-dom'
 
 const ControlPannelHome = () => {
   return (
@@ -31,7 +32,7 @@ const ControlPannelHome = () => {
             <div className="col-lg-12">
                 <div className="Home_Control_Pannel">
                      <div className="Visit_Our_WebSite" style={{paddingTop:"2px",textAlign:"-webkit-right"}}>
-                     <button   type="button" style={{background:"#a9db80",border:"none",borderRadius:"3px",color:"white",display:"flex",textAlign:"center"}}>Visit Our WebSite</button>
+                     <Link to="/controlpannelhome"  type="button" style={{background:"#a9db80",border:"none",borderRadius:"3px",color:"white",textAlign:"center",textDecoration:"none"}}>Visit Our WebSite</Link>
                      </div>
                      <div className="Welcome_to_Webkiz">
                         <h6 style={{textAlign:"center",fontSize:"15px"}}> Welcome Bizhawkz!</h6>
