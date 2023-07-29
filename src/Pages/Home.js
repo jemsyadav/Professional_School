@@ -14,6 +14,8 @@ import frontbanner from '../Images/Front-banner.png'
 import Top_Header from '../Components/Top_Header';
 import Footer from '../Components/Footer'
 import Top_Header_2 from '../Components/Top_Header_2'
+import ControlPannelHome from './ControlPannelHome'
+import ControlPannelStudents from './ControlPannelStudents'
 
 
 const Home = () => {
@@ -74,6 +76,8 @@ const Home = () => {
   
     </div>
     <Footer/>
+    <ControlPannelStudents/>
+   
   
    
    

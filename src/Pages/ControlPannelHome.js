@@ -40,7 +40,7 @@ const ControlPannelHome = () => {
             </div>
         </div>
     </div>
-    <ControlPannelRegistation/>
+   
       
     </div>
   )
