@@ -36,7 +36,7 @@ const Facultiy = () => {
         </div>
       </div>
 
-      <div className="container" style={{ paddingTop: "1.5rem" }}>
+      <div className="container" style={{ paddingTop: "1.5rem"  , width:"100%" ,overflow:"scroll" }}>
         <div className="row">
             <div className="col-lg-12">
                 <div className="Facultiy_Heading" style={{display:"flex",justifyContent:"space-between"}}>
