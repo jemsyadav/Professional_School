@@ -14,6 +14,8 @@ import Contact from './Pages/Contact';
 import ControlPannelHome from './Pages/ControlPannelHome';
 import Facultiy from './Pages/Facultiy';
 import ControlPannelStudents from './Pages/ControlPannelStudents';
+import ControlPannelCourse from './Pages/ControlPannelCourse';
+import ControlPannelRegistation from './Pages/ControlPannelRegistation';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
      <Route path='/controlpannelhome' element={<Home/>}/> 
     <Route path='/faculity' element={<Facultiy/>}/>
     <Route path='/students' element={<ControlPannelStudents/>}/> 
+    <Route path='/course' element={<ControlPannelCourse/>}/>
 
+<Route path='/registation' element={<ControlPannelRegistation/>}/>
 
     <Route path='/' element={<ControlPannelHome/>}/>
     <Route path='/about' element={<About/>}/>

@@ -57,11 +57,11 @@ const Navbar_3=()=> {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-black" href="/benifits">Courses</a>
+          <a class="nav-link text-black" href="/course">Course</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-black" href="/ourteam">Registation</a>
+          <a class="nav-link text-black" href="/registation">Registation</a>
           
         </li>
 
