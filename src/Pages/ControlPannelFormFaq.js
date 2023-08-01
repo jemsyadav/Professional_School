@@ -3,9 +3,52 @@ import Top_Header from '../Components/Top_Header'
 import Navbar_3 from '../Components/Navbar_3'
 import Headerimage1 from '../Images/header-1-1.png'
 import deletelogo from '../Images/delete.png'
+import FormFaq from '../Components/FormFaq'
+import { keyboard } from '@testing-library/user-event/dist/keyboard'
 
 const ControlPannelFormFaq = () => {
-  let title = "Q1:- Kindle Library"
+  const form = [
+    {
+      id: 1,
+       Name:"Q1:- Kindle Library",
+       Date:"08-Jul-2018",
+    },
+   { 
+    id: 2,
+    Name:"Q2:- Educational ",
+    Date:"16-Oct-2015",
+  },
+  {
+    id: 3,
+       Name:"Q3:- Capnography Certificate Kindle Library",
+        Date:"14-Oct-2015",
+},
+
+{
+  id: 4,
+Name:"Q4:- Required materials  Capnography ",
+Date:"14-Oct-2015",
+},
+{
+id: 5,
+Name:"Q5:- Required materials",
+Date: "24-Oct-2015",
+},
+{
+  id: 3,
+     Name:"Q3:- Capnography Certificate Kindle Library",
+      Date:"14-Oct-2015",
+},
+
+
+  
+
+   
+    
+  ];
+
+  console.log(form);
+ 
   return (
     <div>
      <Top_Header />
@@ -19,24 +62,28 @@ const ControlPannelFormFaq = () => {
           </div>
         </div>
       </div>
-<div className="container">
-  <div className="row" style={{paddingTop:"3rem"}}>
-    <div className="col-lg-12" style={{border:"5px solid #FFFFFF",padding:"10px 30px",borderRadius:"10px",boxShadow:"0 0 3px rgba(0, 0, 0, 0.52)",background:"#F2F2F2",margin:"0 4px 14px"}}>
-      <div className="First_box">
-   <h6>   {title}</h6>
-      </div>
-      <div className="Logo_Date" style={{display:"flex" ,gap:"8px"}}>
-        <div className="Date">
-        <p>08-Jul-2018</p>
-        </div>
-        <div className="logo">
-     <img src={deletelogo} alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-      
+
+
+    {/* {form?.map((e)=>{
+      return(
+        <FormFaq data={e}/>
+      )
+    })} */}
+
+  {form?.map((e)=>{
+    return(
+      <FormFaq data={e} />
+    )
+  })}
+
+
+
+   
+    
+    
+
+
+    
     </div>
   )
 }

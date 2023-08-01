@@ -173,7 +173,7 @@ const ControlPannelStudents = () => {
             </div>
             <div className="col-lg-8" style={{ paddingTop: "1rem" }}></div>
           </div>
-          <div className="row" style={{width:"100%",overflow:"scroll"}}>
+          <div className="row" style={{ width: "100%", overflow: "scroll" }}>
             <div className="col-lg-12">
               <table class="table">
                 <thead class="thead-dark">
