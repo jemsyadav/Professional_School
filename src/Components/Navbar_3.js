@@ -110,7 +110,7 @@ const Navbar_3 = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-black" href="/ourteam">
+              <a class="nav-link text-black" href="/myprofile">
                 My Profile
               </a>
             </li>
@@ -125,7 +125,7 @@ const Navbar_3 = () => {
         </li> */}
           </ul>
         </div>
-        <button type="button" class="btn btn-secondary contact_btn">
+        <button  type="button" class="btn btn-secondary contact_btn">
           {" "}
           Control Pannels
         </button>

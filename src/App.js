@@ -17,6 +17,7 @@ import ControlPannelCourse from "./Pages/ControlPannelCourse";
 import ControlPannelRegistation from "./Pages/ControlPannelRegistation";
 import ControlPannelAnnouncements from "./Pages/ControlPannelAnnouncements";
 import ControlPannelFormFaq from "./Pages/ControlPannelFormFaq";
+import My_Profile from "./Pages/My_Profile";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/students" element={<ControlPannelStudents />} />
           <Route path="/course" element={<ControlPannelCourse />} />
           <Route path="/form&faq" element={<ControlPannelFormFaq />} />
+          <Route path="/myprofile" element={<My_Profile />} />
           <Route
             path="/announcments"
             element={<ControlPannelAnnouncements />}
