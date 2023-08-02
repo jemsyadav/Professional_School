@@ -303,8 +303,11 @@ const Contact = () => {
   <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate"/>
   <label class="form-check-label" for="flexCheckIndeterminate">
   Yoga
-
   </label>
+
+
+
+  
   
 </div>
 
@@ -314,8 +317,14 @@ const Contact = () => {
   </div>
 
          </div>
+         <div style={{margintop:"20px"}}>&nbsp;<textarea style={{width:"50%"}} name="comment" rows="6" class="text-area" placeholder="Any questions or comments" maxlength="800"></textarea></div>
+           <div className="button_subscribe" style={{paddingBottom:"2rem"}}>
+          <button style={{background:"#4a6bb5" ,padding:"12px 20px",paddingBottom:"15px" ,border:"none",boxShadow:"inset 0 -2px 0 rgba(0,0,0,.25)",color:"white"}} type='button'>Join Our Suscriber list</button>
+          </div>
         </div>
+        
     </div>
+    
 </div>
 <Footer/>
     </div>

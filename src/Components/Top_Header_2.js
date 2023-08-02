@@ -11,7 +11,7 @@ const Top_Header_2 = () => {
         <div className="container">
           <div className="MainDivPosition">
             <div className="Image_School">
-              <img className="imgc" src={Headerimage1} alt="" />
+              <img className="imgc" src={Headerimage1} alt="" width={"100%"} />
             </div>
             <Navbar1 />
           </div>
