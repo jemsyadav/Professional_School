@@ -299,12 +299,13 @@ const Contact = () => {
   Trauma and PTSD
   </label>
 </div>
-<div class="form-check" style={{paddingTop:'8px'}}>
+<div class="form-check" style={{paddingTop:'8px' , paddingBottom:"3rem"}}>
   <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate"/>
   <label class="form-check-label" for="flexCheckIndeterminate">
   Yoga
 
   </label>
+  
 </div>
 
             </div>
